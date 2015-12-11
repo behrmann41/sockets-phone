@@ -5,4 +5,8 @@ app.config(function($locationProvider, $routeProvider){
       templateUrl: '/partials/home.html',
       controller: 'HomeController'
     })
+    .when('/phone', {
+      templateUrl: '/partials/phone.html',
+      controller: 'HomeController'
+    })
 })
